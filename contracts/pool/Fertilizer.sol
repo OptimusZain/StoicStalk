@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0 ;
+pragma solidity =0.7.6 ;
 pragma experimental ABIEncoderV2;
 
 import "./Internalizer.sol";
@@ -22,7 +22,7 @@ contract Fertilizer is Internalizer {
     event ClaimFertilizer(uint256[] ids, uint256 beans);
 
     using SafeERC20Upgradeable for IERC20;
-    // using SafeMathUpgradeable for uint256;
+    using SafeMathUpgradeable for uint256;
     using LibSafeMath128 for uint128;
 
     function beanstalkUpdate(

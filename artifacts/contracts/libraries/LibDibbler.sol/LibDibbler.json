@@ -1,0 +1,42 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LibDibbler",
+  "sourceName": "contracts/libraries/LibDibbler.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "beans",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "pods",
+          "type": "uint256"
+        }
+      ],
+      "name": "Sow",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220fe61b9d43830a2b14cbd5d2bd71f7f1d54bbd3d7650fdb9ccbca095b27a738d764736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220fe61b9d43830a2b14cbd5d2bd71f7f1d54bbd3d7650fdb9ccbca095b27a738d764736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

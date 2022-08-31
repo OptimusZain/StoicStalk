@@ -1,0 +1,18 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "InitHotFix4",
+  "sourceName": "contracts/farm/init/InitHotFix4.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "init",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063e1c7392a14602d575b600080fd5b60336035565b005b56fea2646970667358221220fcf370f47dcd46c9fccc8ad25401a73ec47ef46bda5bce45d5c7a933bc7c4c0164736f6c63430007060033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063e1c7392a14602d575b600080fd5b60336035565b005b56fea2646970667358221220fcf370f47dcd46c9fccc8ad25401a73ec47ef46bda5bce45d5c7a933bc7c4c0164736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

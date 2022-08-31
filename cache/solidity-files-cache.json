@@ -1,0 +1,6318 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/C.sol": {
+      "lastModificationDate": 1661945902187,
+      "contentHash": "2fbb22471c7af5c7c2bf654c085798fc",
+      "sourceName": "contracts/C.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IBean.sol",
+        "./interfaces/ICurve.sol",
+        "./interfaces/IFertilizer.sol",
+        "./interfaces/IProxyAdmin.sol",
+        "./libraries/Decimal.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "C"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IBean.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "1fe7ddfc2a3987459afba8bef389942c",
+      "sourceName": "contracts/interfaces/IBean.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBean"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/ICurve.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "d12db7e5a86444d842f1398e2d749041",
+      "sourceName": "contracts/interfaces/ICurve.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "I3Curve",
+        "ICurveCryptoFactory",
+        "ICurveFactory",
+        "ICurvePool",
+        "ICurvePool2R",
+        "ICurvePool3R",
+        "ICurvePool4R",
+        "ICurvePoolC",
+        "ICurvePoolNoReturn",
+        "ICurvePoolNoReturn128",
+        "ICurvePoolR",
+        "ICurveZap"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IFertilizer.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "815fe99ea71e9986d3eb22ce593405d5",
+      "sourceName": "contracts/interfaces/IFertilizer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IFertilizer"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IProxyAdmin.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "9b65ef12357a2750dce1e891fa497d8a",
+      "sourceName": "contracts/interfaces/IProxyAdmin.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IProxyAdmin"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Decimal.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "d0b56a2053985acefe5404aa859bbe68",
+      "sourceName": "contracts/libraries/Decimal.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Decimal"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1661946129181,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Curve/LibBeanLUSDCurve.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "b631dfb63d484cd66ee7c42146e407a6",
+      "sourceName": "contracts/libraries/Curve/LibBeanLUSDCurve.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./LibMetaCurve.sol",
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IPlainCurve",
+        "LibBeanLUSDCurve"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Curve/LibMetaCurve.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "1d08f4dbc2bd73b95936353cdd2b5ea6",
+      "sourceName": "contracts/libraries/Curve/LibMetaCurve.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./LibCurve.sol",
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IMeta3Curve",
+        "LibMetaCurve"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Curve/LibCurve.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "bd1d6c6584ab5c404b43457a4c05da31",
+      "sourceName": "contracts/libraries/Curve/LibCurve.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibCurve"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibPlainCurveConvert.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "526f265fbeefcedd35f5da4139a24c5b",
+      "sourceName": "contracts/libraries/Convert/LibPlainCurveConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../Curve/LibMetaCurve.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibPlainCurveConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant8.sol": {
+      "lastModificationDate": 1661946551990,
+      "contentHash": "86c7745c24e2eba8c6829efef1620521",
+      "sourceName": "contracts/farm/init/replant/Replant8.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol",
+        "../../../pool/BeanstalkERC20.sol",
+        "../../../libraries/Silo/LibWhitelist.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "NewCurveFactory",
+        "OldCurveFactory",
+        "Replant8"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/AppStorage.sol": {
+      "lastModificationDate": 1661946433695,
+      "contentHash": "8fc4fa820479b9aaa292ef5a11a25ecb",
+      "sourceName": "contracts/farm/AppStorage.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Account",
+        "Storage"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/BeanstalkERC20.sol": {
+      "lastModificationDate": 1661946607998,
+      "contentHash": "521546988aa39944da4f6ff7e46e399a",
+      "sourceName": "contracts/pool/BeanstalkERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/utils/Context.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "BeanstalkERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Silo/LibWhitelist.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "a2889e48cbb01ba3433b969443cdde67",
+      "sourceName": "contracts/libraries/Silo/LibWhitelist.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol",
+        "../LibAppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "LibWhitelist"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IDiamondCut.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "d838bc88cf252065b7c58872048b0ad0",
+      "sourceName": "contracts/interfaces/IDiamondCut.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IDiamondCut"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/access/AccessControl.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "54eb0b53c109558e8312811342e95bf0",
+      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/EnumerableSet.sol",
+        "../utils/Address.sol",
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1661946127819,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1661946129180,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol": {
+      "lastModificationDate": 1661946129180,
+      "contentHash": "1603b7aab78c87467dde869fd19ec86b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/ERC20Permit.sol": {
+      "lastModificationDate": 1661946552028,
+      "contentHash": "668de8ef23d3f4fe10afe33613718e8c",
+      "sourceName": "contracts/pool/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/drafts/IERC20Permit.sol",
+        "@openzeppelin/contracts/drafts/EIP712.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/cryptography/ECDSA.sol",
+        "@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1661946127819,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1661946127819,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/drafts/IERC20Permit.sol": {
+      "lastModificationDate": 1661946127802,
+      "contentHash": "554ef6825dd2112860a7f82be25dab45",
+      "sourceName": "@openzeppelin/contracts/drafts/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/drafts/EIP712.sol": {
+      "lastModificationDate": 1661946127802,
+      "contentHash": "fc999322255c14bf39f2047b1b27eefa",
+      "sourceName": "@openzeppelin/contracts/drafts/EIP712.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "373a483bb0a88668c0735924d84f50f1",
+      "sourceName": "@openzeppelin/contracts/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1661946127819,
+      "contentHash": "304a56eb1322144704fb39f8c7e6d722",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibAppStorage.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "2e6059eca562df8baa74b590f9e76170",
+      "sourceName": "contracts/libraries/LibAppStorage.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../farm/AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibAppStorage"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitReplant.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "bc6fdb0b3430320d45b9ac5c841ca314",
+      "sourceName": "contracts/farm/init/InitReplant.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "../../C.sol",
+        "../../libraries/Silo/LibWhitelist.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitReplant"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant7.sol": {
+      "lastModificationDate": 1661946553034,
+      "contentHash": "0b187d37b40d05de8a9b126422a2b528",
+      "sourceName": "contracts/farm/init/replant/Replant7.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol",
+        "../../../pool/BeanstalkERC20.sol",
+        "../../../libraries/Silo/LibSilo.sol",
+        "../../../libraries/Silo/LibTokenSilo.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant7"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Silo/LibSilo.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "71116c6fc5c75ca94a8d51a04e1dd74f",
+      "sourceName": "contracts/libraries/Silo/LibSilo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../C.sol",
+        "../LibAppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibSilo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Silo/LibTokenSilo.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "e4b7d7ad7286ccd6dde5bf9f55feef0f",
+      "sourceName": "contracts/libraries/Silo/LibTokenSilo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../LibAppStorage.sol",
+        "../../C.sol",
+        "./LibUnripeSilo.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibTokenSilo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Silo/LibUnripeSilo.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "380f0a93f22bb8ef1a90068de7a46522",
+      "sourceName": "contracts/libraries/Silo/LibUnripeSilo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../LibAppStorage.sol",
+        "../LibSafeMath128.sol",
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibUnripeSilo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibSafeMath128.sol": {
+      "lastModificationDate": 1661946608018,
+      "contentHash": "cd243ed8d4006022be0031a4508792a9",
+      "sourceName": "contracts/libraries/LibSafeMath128.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <=0.7.6"
+      ],
+      "artifacts": [
+        "LibSafeMath128"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant1.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "c21608111eaaa2b812fddf55b804a9db",
+      "sourceName": "contracts/farm/init/replant/Replant1.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../../libraries/Silo/LibTokenSilo.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant1"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SiloFacet/Silo.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "d12bf5607dea6e73617bd65592a41329",
+      "sourceName": "contracts/farm/facets/SiloFacet/Silo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "./SiloExit.sol",
+        "../../../libraries/Silo/LibSilo.sol",
+        "../../../libraries/Silo/LibTokenSilo.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Silo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1661946129181,
+      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SiloFacet/SiloExit.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "2bd8138be9a2b4b0f1377185ef566948",
+      "sourceName": "contracts/farm/facets/SiloFacet/SiloExit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../ReentrancyGuard.sol",
+        "../../../libraries/Silo/LibSilo.sol",
+        "../../../libraries/LibSafeMath32.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "SiloExit"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/ReentrancyGuard.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "8d3b1f59ad8d5dab41f858402e0cf930",
+      "sourceName": "contracts/farm/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibSafeMath32.sol": {
+      "lastModificationDate": 1661946608018,
+      "contentHash": "39f453250d96eb346d44bd9b2d3a72ac",
+      "sourceName": "contracts/libraries/LibSafeMath32.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <=0.7.6"
+      ],
+      "artifacts": [
+        "LibSafeMath32"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SiloFacet/TokenSilo.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "9853e4dd72210d5ca1b31dced0845b5e",
+      "sourceName": "contracts/farm/facets/SiloFacet/TokenSilo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Silo.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "TokenSilo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SiloFacet/SiloFacet.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "6cdf350de59ab2925a874fca5e24fca4",
+      "sourceName": "contracts/farm/facets/SiloFacet/SiloFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TokenSilo.sol",
+        "../../ReentrancyGuard.sol",
+        "../../../libraries/Token/LibTransfer.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "SiloFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Token/LibTransfer.sol": {
+      "lastModificationDate": 1661945902200,
+      "contentHash": "0acab7aa69c29f99d3785ce06d362393",
+      "sourceName": "contracts/libraries/Token/LibTransfer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../../interfaces/IBean.sol",
+        "./LibBalance.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibTransfer"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Token/LibBalance.sol": {
+      "lastModificationDate": 1661945902200,
+      "contentHash": "2139e15aa50398491383786d27be5cad",
+      "sourceName": "contracts/libraries/Token/LibBalance.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/utils/SafeCast.sol",
+        "../LibAppStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "LibBalance"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/math/Math.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "e5c844515b04deabacef7eb872abc384",
+      "sourceName": "@openzeppelin/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/utils/SafeCast.sol": {
+      "lastModificationDate": 1661946127820,
+      "contentHash": "c227dcf457382aabf2d78218f6457799",
+      "sourceName": "@openzeppelin/contracts/utils/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/UnripeFacet.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "12f55459c64144921e5d673804257c74",
+      "sourceName": "contracts/farm/facets/UnripeFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/cryptography/MerkleProof.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../interfaces/IBean.sol",
+        "../../libraries/LibDiamond.sol",
+        "../../libraries/LibUnripe.sol",
+        "../../libraries/Token/LibTransfer.sol",
+        "../../C.sol",
+        "../ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "UnripeFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/cryptography/MerkleProof.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "44bd823687d58263d3b1da555235f93e",
+      "sourceName": "@openzeppelin/contracts/cryptography/MerkleProof.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "MerkleProof"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibDiamond.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "03a10a7c269a4261d4497341e67e3a86",
+      "sourceName": "contracts/libraries/LibDiamond.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol",
+        "../interfaces/IDiamondLoupe.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibDiamond"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibUnripe.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "3753d266ba1ec3ea73adc9f628cdfb3a",
+      "sourceName": "contracts/libraries/LibUnripe.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./LibAppStorage.sol",
+        "../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibUnripe"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IDiamondLoupe.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "b7f5f81c1de02398f10a64d7d4605848",
+      "sourceName": "contracts/interfaces/IDiamondLoupe.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IDiamondLoupe"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "117074eecda9d2ef5da7f33769672501",
+      "sourceName": "contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/Internalizer.sol": {
+      "lastModificationDate": 1661946552011,
+      "contentHash": "28a9660abc881a673966182c3e7f2891",
+      "sourceName": "contracts/pool/Internalizer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "./Fertilizer1155.sol",
+        "../libraries/LibSafeMath32.sol",
+        "../libraries/LibSafeMath128.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Internalizer"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "f00ef76e89770e6a3e3f0e4da0844794",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "StringsUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol": {
+      "lastModificationDate": 1661946129174,
+      "contentHash": "baee93b27b5b91092cb32dd0b22d0a4d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Upgradeable.sol",
+        "../../math/SafeMathUpgradeable.sol",
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1661946127788,
+      "contentHash": "91a7735bfcbb48c7482f10f1083a8ed8",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "008d2d730bc1f24f3c0fafa29b7a0bd2",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/Fertilizer1155.sol": {
+      "lastModificationDate": 1661946552011,
+      "contentHash": "e2d5e8ef0e22e44ca8db2625fa479707",
+      "sourceName": "contracts/pool/Fertilizer1155.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Fertilizer1155"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
+      "lastModificationDate": 1661946129174,
+      "contentHash": "6c8edd65243ec9d6eb91cc63cce2cd16",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "33cad0216fea16ce4baadc5603b84218",
+      "sourceName": "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMathUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "aa72beb3bf14f8394b4a8a292d66589c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "9f901c17a18eadc08042b6a510da3b7d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/proxy/Initializable.sol": {
+      "lastModificationDate": 1661946127790,
+      "contentHash": "71b3ac8d4da61bb6c6708c12f56e3c1f",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24 <0.8.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol": {
+      "lastModificationDate": 1661946129177,
+      "contentHash": "56f03d1ab28143f8dff51cc763ea2ca8",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155Upgradeable.sol",
+        "./IERC1155MetadataURIUpgradeable.sol",
+        "./IERC1155ReceiverUpgradeable.sol",
+        "../../utils/ContextUpgradeable.sol",
+        "../../introspection/ERC165Upgradeable.sol",
+        "../../math/SafeMathUpgradeable.sol",
+        "../../utils/AddressUpgradeable.sol",
+        "../../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155Upgradeable.sol": {
+      "lastModificationDate": 1661946129177,
+      "contentHash": "c6a7d22d689cb2a9f3571a879b444cc3",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155MetadataURIUpgradeable.sol": {
+      "lastModificationDate": 1661946129177,
+      "contentHash": "beb762f1d5aed52c6044c40075b6d179",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155MetadataURIUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURIUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol": {
+      "lastModificationDate": 1661946129177,
+      "contentHash": "8beb84d08fa29b37f952d51a2d81dde5",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155ReceiverUpgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/introspection/ERC165Upgradeable.sol": {
+      "lastModificationDate": 1661946127800,
+      "contentHash": "2fe109cd8f5cb2cc237b5e6a7e99edd7",
+      "sourceName": "@openzeppelin/contracts-upgradeable/introspection/ERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165Upgradeable.sol",
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol": {
+      "lastModificationDate": 1661946127800,
+      "contentHash": "1e80a066fb319fc9752e62673a0e9450",
+      "sourceName": "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC165Upgradeable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/FertilizerPreMint.sol": {
+      "lastModificationDate": 1661946552011,
+      "contentHash": "3023dce6d0f525dbc4982b80d1f30ddd",
+      "sourceName": "contracts/pool/FertilizerPreMint.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Internalizer.sol",
+        "../interfaces/ISwapRouter.sol",
+        "../interfaces/IQuoter.sol",
+        "../interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "FertilizerPreMint"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/ISwapRouter.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "8f34019d424c1c6a0ff2fb2a65a106e3",
+      "sourceName": "contracts/interfaces/ISwapRouter.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "ISwapRouter"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IQuoter.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "46eb1959b747673fd699100fb50f8a91",
+      "sourceName": "contracts/interfaces/IQuoter.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "IQuoter"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "b0e605708648a8b5f24e7b4cfd1eef6f",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitDiamond.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "29a2e794dbf9a7081f7470e62da2538e",
+      "sourceName": "contracts/farm/init/InitDiamond.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "../../interfaces/IERC165.sol",
+        "../../interfaces/IDiamondCut.sol",
+        "../../interfaces/IDiamondLoupe.sol",
+        "../../libraries/LibDiamond.sol",
+        "../../C.sol",
+        "../../interfaces/IBean.sol",
+        "../../interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitDiamond"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitFundraiser.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "f42432290aee019a93046fd6893ba265",
+      "sourceName": "contracts/farm/init/InitFundraiser.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "InitFundraiser"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip9.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "a84f72daba7ccc0119f871090727011c",
+      "sourceName": "contracts/farm/init/InitBip9.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip9"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip8.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "3b3980aa2f43733a788f4570121492d8",
+      "sourceName": "contracts/farm/init/InitBip8.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../AppStorage.sol",
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip8"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip7.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "7e0734529a067747b828aafc99ff235f",
+      "sourceName": "contracts/farm/init/InitBip7.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip7"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip5.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "6659f0f25fcde3548df286cd1489a178",
+      "sourceName": "contracts/farm/init/InitBip5.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "InitBip5"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip16.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "d7c6ead483fd559cd85be8da2a6bf164",
+      "sourceName": "contracts/farm/init/InitBip16.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "InitBip16"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip14.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "dc6c2457c3c0da585e026584efe30a46",
+      "sourceName": "contracts/farm/init/InitBip14.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../AppStorage.sol",
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip14"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip12.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "d688713622bf6616c1861de2f1676290",
+      "sourceName": "contracts/farm/init/InitBip12.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "InitBip12"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip11.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "d51bbc1819df668458f12ac7035f1e52",
+      "sourceName": "contracts/farm/init/InitBip11.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IBean.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip11"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip1.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "e2b62fec9e741d6c78ad3697351dfeb4",
+      "sourceName": "contracts/farm/init/InitBip1.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../AppStorage.sol",
+        "../../interfaces/IBean.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip1"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/MarketplaceFacet/PodTransfer.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "ea5b5094e63e6f40bffebd877f3f4593",
+      "sourceName": "contracts/farm/facets/MarketplaceFacet/PodTransfer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../interfaces/IBean.sol",
+        "../../../libraries/LibSafeMath32.sol",
+        "../../ReentrancyGuard.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "PodTransfer"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/MarketplaceFacet/Listing.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "dc89a914dbeb4823f9c9d89b392fcbab",
+      "sourceName": "contracts/farm/facets/MarketplaceFacet/Listing.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PodTransfer.sol",
+        "../../../libraries/Token/LibTransfer.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Listing"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/MarketplaceFacet/Order.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "a96b0ab9f86ff98ce48621ce41dc68bb",
+      "sourceName": "contracts/farm/facets/MarketplaceFacet/Order.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Listing.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Order"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/MarketplaceFacet/MarketplaceFacet.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "f89ecfc431417be9c6335d36b4419ff8",
+      "sourceName": "contracts/farm/facets/MarketplaceFacet/MarketplaceFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Order.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "MarketplaceFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibDibbler.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "be06086fa88d74fa0fa05a76b69cc037",
+      "sourceName": "contracts/libraries/LibDibbler.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../C.sol",
+        "../interfaces/IBean.sol",
+        "./LibAppStorage.sol",
+        "./LibSafeMath32.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibDibbler"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/FundraiserFacet.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "1d01eef47be4c88239fc7fdb7d485b7a",
+      "sourceName": "contracts/farm/facets/FundraiserFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../ReentrancyGuard.sol",
+        "../../libraries/LibDiamond.sol",
+        "../../libraries/LibDibbler.sol",
+        "../../libraries/Token/LibTransfer.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "FundraiserFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/WhitelistFacet.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "453638161dd9e0aa8933efd76367c955",
+      "sourceName": "contracts/farm/facets/WhitelistFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/LibDiamond.sol",
+        "../../libraries/Silo/LibWhitelist.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "WhitelistFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/PauseFacet.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "54a6d0d571a5217e7f99696e73a2aac6",
+      "sourceName": "contracts/farm/facets/PauseFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../libraries/LibDiamond.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "PauseFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/FertilizerFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "69f21003bad89483a170187a540011d5",
+      "sourceName": "contracts/farm/facets/FertilizerFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "../../libraries/Token/LibTransfer.sol",
+        "../../libraries/LibFertilizer.sol",
+        "../../C.sol",
+        "../../libraries/LibDiamond.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "FertilizerFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibFertilizer.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "af071daa6cdcf9faec3b59b61a99821c",
+      "sourceName": "contracts/libraries/LibFertilizer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./LibAppStorage.sol",
+        "./LibSafeMath128.sol",
+        "../C.sol",
+        "./LibUnripe.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibFertilizer"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SeasonFacet/Sun.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "acf76c5a4cc7ff43b661ca30330a6886",
+      "sourceName": "contracts/farm/facets/SeasonFacet/Sun.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../libraries/Decimal.sol",
+        "../../../libraries/LibSafeMath32.sol",
+        "./Oracle.sol",
+        "../../../C.sol",
+        "../../../libraries/LibFertilizer.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "Sun"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SeasonFacet/Oracle.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "b0fe3811a4eddfcf67132923e6e8e6d7",
+      "sourceName": "contracts/farm/facets/SeasonFacet/Oracle.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../libraries/Oracle/LibCurveOracle.sol",
+        "../../ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Oracle"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Oracle/LibCurveOracle.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "8dc220a67aaa6e87caa23c87f7e4355d",
+      "sourceName": "contracts/libraries/Oracle/LibCurveOracle.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Curve/LibBeanMetaCurve.sol",
+        "../LibAppStorage.sol",
+        "../LibSafeMath32.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IMeta3CurveOracle",
+        "LibCurveOracle"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Curve/LibBeanMetaCurve.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "86764372a238811ebb5a8e13b611bf65",
+      "sourceName": "contracts/libraries/Curve/LibBeanMetaCurve.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./LibMetaCurve.sol",
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibBeanMetaCurve"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Token/LibEth.sol": {
+      "lastModificationDate": 1661945902200,
+      "contentHash": "8df9918229d99db657a60ecfb238761c",
+      "sourceName": "contracts/libraries/Token/LibEth.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../LibAppStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "LibEth"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/TokenFacet.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "722b53b9a9c67e950f05c4b712497d86",
+      "sourceName": "contracts/farm/facets/TokenFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "../../libraries/Token/LibTransfer.sol",
+        "../../libraries/Token/LibWeth.sol",
+        "../../libraries/Token/LibEth.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "TokenFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Token/LibWeth.sol": {
+      "lastModificationDate": 1661945902200,
+      "contentHash": "fe76709a5de8353623d65d74c09e0f2b",
+      "sourceName": "contracts/libraries/Token/LibWeth.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IWETH.sol",
+        "./LibTransfer.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibWeth"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/FarmFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "d1212c69808191630ce896d46dca9ef7",
+      "sourceName": "contracts/farm/facets/FarmFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "../../libraries/LibDiamond.sol",
+        "../../libraries/Token/LibEth.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "FarmFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Token/LibApprove.sol": {
+      "lastModificationDate": 1661945902200,
+      "contentHash": "f4b897061dd022bb4023b97033c23d77",
+      "sourceName": "contracts/libraries/Token/LibApprove.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibApprove"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/CurveFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "fc94f7fdc8d8467b93c3c1949e970ef3",
+      "sourceName": "contracts/farm/facets/CurveFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol",
+        "../../interfaces/ICurve.sol",
+        "../../libraries/Token/LibTransfer.sol",
+        "../../libraries/Token/LibApprove.sol",
+        "../ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "CurveFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/UnripeBean.sol": {
+      "lastModificationDate": 1661946610405,
+      "contentHash": "e94fcfa2c104ed7bdb80794792748481",
+      "sourceName": "contracts/pool/UnripeBean.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/utils/Context.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "BeanstalkERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/UNRIPE_LP.sol": {
+      "lastModificationDate": 1661946608035,
+      "contentHash": "e94fcfa2c104ed7bdb80794792748481",
+      "sourceName": "contracts/pool/UNRIPE_LP.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/utils/Context.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "BeanstalkERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/tokens/Bean.sol": {
+      "lastModificationDate": 1661945902203,
+      "contentHash": "985fb58f4c909229f7bfbc646e65d39d",
+      "sourceName": "contracts/tokens/Bean.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Bean"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1661946127801,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/tokens/USDC.sol": {
+      "lastModificationDate": 1661945902203,
+      "contentHash": "bda600035799d7c314a40842de12335a",
+      "sourceName": "contracts/tokens/USDC.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "USDC"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/IUSDC.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "014c7c3d1df061566ecf0332adc56c9c",
+      "sourceName": "contracts/interfaces/IUSDC.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IUSDC"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibMetaCurveConvert.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "f820472ee3f44f4dd35c7ca7774f8d63",
+      "sourceName": "contracts/libraries/Convert/LibMetaCurveConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../LibAppStorage.sol",
+        "./LibConvertData.sol",
+        "../Curve/LibBeanMetaCurve.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibMetaCurveConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibConvertData.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "14ffd87cdfcd6711bfc688c98feb2dec",
+      "sourceName": "contracts/libraries/Convert/LibConvertData.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibConvertData"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SeasonFacet/Weather.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "07155e3e8b58f5ec2c6662c4e9643039",
+      "sourceName": "contracts/farm/facets/SeasonFacet/Weather.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../libraries/Decimal.sol",
+        "../../../libraries/Curve/LibBeanMetaCurve.sol",
+        "./Sun.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Weather"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/SeasonFacet/SeasonFacet.sol": {
+      "lastModificationDate": 1661945902190,
+      "contentHash": "3928fc543905d52aca0c74365a259892",
+      "sourceName": "contracts/farm/facets/SeasonFacet/SeasonFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Weather.sol",
+        "../../../libraries/LibIncentive.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "SeasonFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibIncentive.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "a502d07d25a6511cef15acb8671b0811",
+      "sourceName": "contracts/libraries/LibIncentive.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibIncentive"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibCurveConvert.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "058ca3bba1ba06c7fa5efff656485696",
+      "sourceName": "contracts/libraries/Convert/LibCurveConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../LibAppStorage.sol",
+        "./LibConvertData.sol",
+        "./LibMetaCurveConvert.sol",
+        "./LibBeanLUSDConvert.sol",
+        "../Curve/LibBeanMetaCurve.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibCurveConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibBeanLUSDConvert.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "9f89f34db6f1be1a9be2c7f565e9bc90",
+      "sourceName": "contracts/libraries/Convert/LibBeanLUSDConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../Curve/LibMetaCurve.sol",
+        "./LibPlainCurveConvert.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibBeanLUSDConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibUnripeConvert.sol": {
+      "lastModificationDate": 1661945902198,
+      "contentHash": "c5cf8202ce9415e12d58369c542bf916",
+      "sourceName": "contracts/libraries/Convert/LibUnripeConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./LibCurveConvert.sol",
+        "../../C.sol",
+        "../../interfaces/IBean.sol",
+        "../LibUnripe.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibUnripeConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/BDVFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "723e808061d1d5430ec4426f41d573cf",
+      "sourceName": "contracts/farm/facets/BDVFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol",
+        "../../libraries/Curve/LibBeanMetaCurve.sol",
+        "../../libraries/LibUnripe.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "BDVFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/Convert/LibConvert.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "957df50a7c42a518b73730176960c487",
+      "sourceName": "contracts/libraries/Convert/LibConvert.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./LibUnripeConvert.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "LibConvert"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/ConvertFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "43738a612c127fd2eb361d50aeece887",
+      "sourceName": "contracts/farm/facets/ConvertFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol",
+        "../../libraries/Silo/LibSilo.sol",
+        "../../libraries/Silo/LibTokenSilo.sol",
+        "../../libraries/LibSafeMath32.sol",
+        "../../libraries/Convert/LibConvert.sol",
+        "../../libraries/LibInternal.sol",
+        "../ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "ConvertFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/libraries/LibInternal.sol": {
+      "lastModificationDate": 1661945902199,
+      "contentHash": "1b54ffc0bf381e83daddcf0313f06a38",
+      "sourceName": "contracts/libraries/LibInternal.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./LibDiamond.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "LibInternal"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/OwnershipFacet.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "9ef2ee9ed3d35ef14429adac269f6785",
+      "sourceName": "contracts/farm/facets/OwnershipFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/LibDiamond.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "OwnershipFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/Diamond.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "f4a6ca9919732fbc260252298d4d981e",
+      "sourceName": "contracts/farm/Diamond.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "./facets/DiamondCutFacet.sol",
+        "./facets/DiamondLoupeFacet.sol",
+        "./facets/OwnershipFacet.sol",
+        "./AppStorage.sol",
+        "../interfaces/IERC165.sol",
+        "../interfaces/IDiamondCut.sol",
+        "../interfaces/IDiamondLoupe.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Diamond"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/DiamondCutFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "8c76932800544e19abb1fa4cb05e27a1",
+      "sourceName": "contracts/farm/facets/DiamondCutFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IDiamondCut.sol",
+        "../../libraries/LibDiamond.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "DiamondCutFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/DiamondLoupeFacet.sol": {
+      "lastModificationDate": 1661945902188,
+      "contentHash": "e7b3d14ddf4f97c00f60f60735423229",
+      "sourceName": "contracts/farm/facets/DiamondLoupeFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/LibDiamond.sol",
+        "../../interfaces/IDiamondLoupe.sol",
+        "../../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "DiamondLoupeFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/AppStorageOld.sol": {
+      "lastModificationDate": 1661945902187,
+      "contentHash": "85e67922cce8f02479c35f64530f8657",
+      "sourceName": "contracts/farm/AppStorageOld.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "AccountOld",
+        "SeasonOld",
+        "StorageOld"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip0.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "4ee68e6c167c45fff76c1d63c442576b",
+      "sourceName": "contracts/farm/init/InitBip0.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../AppStorage.sol",
+        "../AppStorageOld.sol",
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip0"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/facets/FieldFacet.sol": {
+      "lastModificationDate": 1661945902189,
+      "contentHash": "392768954a5ee8b7ed29c884cc574867",
+      "sourceName": "contracts/farm/facets/FieldFacet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/Token/LibTransfer.sol",
+        "../../libraries/LibDibbler.sol",
+        "../ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "FieldFacet"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/Fertilizer.sol": {
+      "lastModificationDate": 1661946731433,
+      "contentHash": "298565a2457219107d687066fba9fafb",
+      "sourceName": "contracts/pool/Fertilizer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Internalizer.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Fertilizer",
+        "IBS"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant6.sol": {
+      "lastModificationDate": 1661945902194,
+      "contentHash": "84728cafb422b6af655d017878d4cd57",
+      "sourceName": "contracts/farm/init/replant/Replant6.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant6"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant5.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "04bc4488876137fc5f69a36ad77d65be",
+      "sourceName": "contracts/farm/init/replant/Replant5.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant5"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant4.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "6538c27a6eab0745205a9b6f0a670f31",
+      "sourceName": "contracts/farm/init/replant/Replant4.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant4"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/replant/Replant3.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "b3cfb14a230bb3990985f6ca24b673e5",
+      "sourceName": "contracts/farm/init/replant/Replant3.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../../AppStorage.sol",
+        "../../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Replant3"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitOmnisciaAudit.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "cb311b7714fb14d05167f7a556db308c",
+      "sourceName": "contracts/farm/init/InitOmnisciaAudit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitOmnisciaAudit"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitHotFix5.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "07a537d4ec01168119c3c4c8c7a1a0b7",
+      "sourceName": "contracts/farm/init/InitHotFix5.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBs",
+        "InitHotFix5"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitHotFix4.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "25f8e731264167ea207b1a214bde13ac",
+      "sourceName": "contracts/farm/init/InitHotFix4.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitHotFix4"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitHotFix3.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "c96ad6719e03e5929938dcd74f588985",
+      "sourceName": "contracts/farm/init/InitHotFix3.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitHotFix3"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitHotFix2.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "7f2845280aa5dc6e8c0f2c61a7d9a9db",
+      "sourceName": "contracts/farm/init/InitHotFix2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitHotFix2"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip2.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "ed66799451b8a77239c799a0cf52ec39",
+      "sourceName": "contracts/farm/init/InitBip2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip2"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip13.sol": {
+      "lastModificationDate": 1661945902191,
+      "contentHash": "cdbd6f178f8fc28a12a016a4ef957e17",
+      "sourceName": "contracts/farm/init/InitBip13.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AppStorage.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip13"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip23.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "1ead4620562b350fa78d67208c2c300e",
+      "sourceName": "contracts/farm/init/InitBip23.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip23"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitBip22.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "5ca3c89a8e8aa97f978550eeb743e3d6",
+      "sourceName": "contracts/farm/init/InitBip22.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../C.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitBip22"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitEmpty.sol": {
+      "lastModificationDate": 1661945902192,
+      "contentHash": "839c85c3c9e58bfd52c5013f86f616cf",
+      "sourceName": "contracts/farm/init/InitEmpty.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "InitEmpty"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/farm/init/InitSiloToken.sol": {
+      "lastModificationDate": 1661945902193,
+      "contentHash": "f4ab799f22e76b19aacf4d21183ef40d",
+      "sourceName": "contracts/farm/init/InitSiloToken.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "IBS",
+        "InitSiloToken"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/interfaces/ILegacySilo.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "dbedea8229d8d772cee75c4777cf07e0",
+      "sourceName": "contracts/interfaces/ILegacySilo.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "ILegacySilo"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IERC20.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "6dbea8cecfddd76d4ddf3d5c84a76e9b",
+      "sourceName": "contracts/joe/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20Joe"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IWAVAX.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "3c6a3cb278cf23bad23b98eb05baaf46",
+      "sourceName": "contracts/joe/interfaces/IWAVAX.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IWAVAX"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoeFactory.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "c47e8259c4b620464aa69df10911eeec",
+      "sourceName": "contracts/joe/interfaces/IJoeFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeFactory"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoeCallee.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "42750602cdcfcc7249f07584f635b09a",
+      "sourceName": "contracts/joe/interfaces/IJoeCallee.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeCallee"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoePair.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "6d21a5d56e6cf49a963cfa5993882da5",
+      "sourceName": "contracts/joe/interfaces/IJoePair.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoePair"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoeRouter02.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "19e739009e61247925530af11d86abaf",
+      "sourceName": "contracts/joe/interfaces/IJoeRouter02.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IJoeRouter01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IJoeRouter02"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoeRouter01.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "6fd6517139fb0577d3b722d2693c0bda",
+      "sourceName": "contracts/joe/interfaces/IJoeRouter01.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IJoeRouter01"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "9e089da75a83d31839751be46a780fcc",
+      "sourceName": "contracts/joe/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/interfaces/IJoeERC20.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "c18630e88799e96e8f035e7c41545313",
+      "sourceName": "contracts/joe/interfaces/IJoeERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/JoeRouter02.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "4d2e08502680eb97a36ce6c09a391cba",
+      "sourceName": "contracts/joe/JoeRouter02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/JoeLibrary.sol",
+        "./libraries/SafeMath.sol",
+        "./libraries/TransferHelper.sol",
+        "./interfaces/IJoeRouter02.sol",
+        "./interfaces/IJoeFactory.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWAVAX.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeRouter02"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/libraries/JoeLibrary.sol": {
+      "lastModificationDate": 1661945902196,
+      "contentHash": "844ef97ae5d86c7fc89e1e4a84ab75ff",
+      "sourceName": "contracts/joe/libraries/JoeLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IJoePair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "JoeLibrary"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/libraries/SafeMath.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "6f96b1400b5515d20ad4914cb60803a0",
+      "sourceName": "contracts/joe/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "SafeMathJoe"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/JoePair.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "1a251f73466c62c9038049ee6621a870",
+      "sourceName": "contracts/joe/JoePair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./JoeERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IJoeFactory.sol",
+        "./interfaces/IJoeCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "IMigrator",
+        "JoePair"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/JoeERC20.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "e692d0ae449ad186aa8520db217106aa",
+      "sourceName": "contracts/joe/JoeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeERC20"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/libraries/Math.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "b004706bb39c05f732245bb39178d3f6",
+      "sourceName": "contracts/joe/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1661945902197,
+      "contentHash": "f0bab25e924fb824712fde36dbe3567f",
+      "sourceName": "contracts/joe/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/joe/JoeFactory.sol": {
+      "lastModificationDate": 1661945902195,
+      "contentHash": "f37941e50ccdb107dbd4f11db2b9fa54",
+      "sourceName": "contracts/joe/JoeFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IJoeFactory.sol",
+        "./JoePair.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeFactory"
+      ]
+    },
+    "/Users/aliwisam/Desktop/OptimusFox/OptimusFox/BeanStalk/re-clone/StoicStalk/contracts/pool/USDC.sol": {
+      "lastModificationDate": 1661945902203,
+      "contentHash": "ddd2672c3ae1a24724b4ff44b11b794d",
+      "sourceName": "contracts/pool/USDC.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0",
+        "^0.6.0",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "^0.6.2",
+        "^0.6.0",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractFiatTokenV1",
+        "AbstractFiatTokenV2",
+        "Address",
+        "Blacklistable",
+        "ECRecover",
+        "EIP2612",
+        "EIP3009",
+        "EIP712",
+        "EIP712Domain",
+        "FiatTokenV1",
+        "FiatTokenV1_1",
+        "FiatTokenV2",
+        "FiatTokenV2_1",
+        "IERC20",
+        "Ownable",
+        "Pausable",
+        "Rescuable",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "InitEmpty",
+  "sourceName": "contracts/farm/init/InitEmpty.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "init",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063e1c7392a14602d575b600080fd5b60336035565b005b56fea2646970667358221220303ff86ef59864debe18b910e4843c3dc41f7423474f841a5575afbfacf5d4c664736f6c63430007060033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063e1c7392a14602d575b600080fd5b60336035565b005b56fea2646970667358221220303ff86ef59864debe18b910e4843c3dc41f7423474f841a5575afbfacf5d4c664736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

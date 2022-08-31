@@ -1,0 +1,36 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LibCurveOracle",
+  "sourceName": "contracts/libraries/Oracle/LibCurveOracle.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "season",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "deltaB",
+          "type": "int256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256[2]",
+          "name": "balances",
+          "type": "uint256[2]"
+        }
+      ],
+      "name": "MetapoolOracle",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220cd152dc7590834e003a52a957d158c844966a52b8a753bf4680b966e76bb3f1b64736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220cd152dc7590834e003a52a957d158c844966a52b8a753bf4680b966e76bb3f1b64736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
