@@ -19,29 +19,31 @@ async function main() {
   console.log('BeanCRVMetaPool:', beanCRVmetapool.address)
 
   const USDC = await ethers.getContractFactory('USDC')
-  const usdc = await USDC.deploy(beanCRVmetapool.address)
+  const usdc = await USDC.deploy()
+  console.log('usdc')
 
   const DAI = await ethers.getContractFactory('USDC')
-  const dai = await DAI.deploy(beanCRVmetapool.address)
+  const dai = await DAI.deploy()
+  console.log('dai')
 
   const USDT = await ethers.getContractFactory('USDC')
-  const usdt = await USDT.deploy(beanCRVmetapool.address)
+  const usdt = await USDT.deploy()
+  console.log('usdt')
 
   const ThreeCRV = await ethers.getContractFactory('3CRV')
-  const threecrv = await ThreeCRV.deploy()
+  const threecrv = await ThreeCRV.deploy("ThreeCurve", "3CRV", 18, 100000)
   console.log('3CRV:', threecrv.address)
 
   const crv3Pool = await ethers.getContractFactory('CRV3Pool')
   const crv3pool = await crv3Pool.deploy(user.address,[usdt.address, usdc.address, dai.address], threecrv.address, 2, 1 ,2)
-  await mock_usdt.deployed()
   console.log('CRV3Pool:', crv3pool.address)
 
-  const UnripeBean = await ethers.getContractFactory('UnripeBean')
-  const ub = await UnripeBean.deploy()
+  const UnripeBean = await ethers.getContractFactory('contracts/pool/UnripeBean.sol:BeanstalkERC20')
+  const ub = await UnripeBean.deploy(user.address, "UnripeBean", "UB")
   console.log('UnripeBean:', ub.address)
 
-  const UNRIPE_LP = await ethers.getContractFactory('UNRIPE_LP')
-  const lp = await UNRIPE_LP.deploy()
+  const UNRIPE_LP = await ethers.getContractFactory('contracts/pool/UNRIPE_LP.sol:BeanstalkERC20')
+  const lp = await UNRIPE_LP.deploy(user.address, "UnripeLP", "ULP")
   console.log('UNRIPE_LP:', lp.address)
 
   const Fertilizer = await ethers.getContractFactory('Fertilizer')
@@ -53,9 +55,24 @@ async function main() {
   // console.log('USDC:', usdc.address)
 
   const TRI_CRYPTO = await ethers.getContractFactory('TRI_CRYPTO')
-  const tri = await TRI_CRYPTO.deploy()
+  const tri = await TRI_CRYPTO.deploy("TRICRYPTO", "TC")
   console.log('TRI_CRYPTO:', tri.address)
   
+//   def __init__(
+//     owner: address,
+//     admin_fee_receiver: address,
+//     A: uint256,
+//     gamma: uint256,
+//     mid_fee: uint256,
+//     out_fee: uint256,
+//     allowed_extra_profit: uint256,
+//     fee_gamma: uint256,
+//     adjustment_step: uint256,
+//     admin_fee: uint256,
+//     ma_half_time: uint256,
+//     initial_prices: uint256[N_COINS-1]
+// ):
+
   const TRI_CRYPTO_POOL = await ethers.getContractFactory('TRI_CRYPTO_POOL')
   const triPool = await TRI_CRYPTO_POOL.deploy()
   console.log('TRI_CRYPTO_POOL:', triPool.address)
