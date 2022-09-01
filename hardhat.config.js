@@ -4,6 +4,7 @@ require('hardhat-contract-sizer')
 require('hardhat-gas-reporter')
 require('solidity-coverage')
 require('@nomicfoundation/hardhat-toolbox')
+require("@nomiclabs/hardhat-vyper");
 
 module.exports = {
   networks: {
@@ -49,6 +50,16 @@ module.exports = {
         runs: 1000,
       },
     },
+  },
+  vyper: {
+    compilers: [
+      {
+        version: "0.2.4",
+      },
+      {
+        version: "0.2.8",
+      },
+    ]
   },
   gasReporter: {
     enabled: true,

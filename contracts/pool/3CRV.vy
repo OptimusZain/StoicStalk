@@ -8,7 +8,6 @@ implements: ERC20
 interface Curve:
     def owner() -> address: view
 
-
 event Transfer:
     _from: indexed(address)
     _to: indexed(address)

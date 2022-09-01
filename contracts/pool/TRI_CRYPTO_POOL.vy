@@ -256,7 +256,7 @@ def __default__():
 def _packed_view(k: uint256, p: uint256) -> uint256:
     assert k < N_COINS-1
     return bitwise_and(
-        shift(p, -PRICE_SIZE * convert(k, int256)),
+        shift(p, -PRICE_SIZE * convert(k, int128)),
         PRICE_MASK
     )  # * PRICE_PRECISION_MUL
 
@@ -677,7 +677,7 @@ def exchange(i: uint256, j: uint256, dx: uint256, min_dy: uint256, use_eth: bool
             _dy: uint256 = dy * prec_j
             if i != 0 and j != 0:
                 p = bitwise_and(
-                    shift(self.last_prices_packed, -PRICE_SIZE * convert(i-1, int256)),
+                    shift(self.last_prices_packed, -PRICE_SIZE * convert(i-1, int128)),
                     PRICE_MASK
                 ) * _dx / _dy  # * PRICE_PRECISION_MUL
             elif i == 0:

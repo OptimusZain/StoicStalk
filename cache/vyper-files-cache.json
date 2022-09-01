@@ -1,0 +1,101 @@
+{
+  "_format": "hh-vy-cache-1",
+  "files": {
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/3CRV.vy": {
+      "lastModificationDate": 1661948286774,
+      "contentHash": "4ec88e12d87e4d6f9f594d7d4cd22c9b",
+      "sourceName": "contracts/pool/3CRV.vy",
+      "vyperConfig": {
+        "version": "0.2.4"
+      },
+      "versionPragma": "0.2.4",
+      "artifacts": [
+        "3CRV"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/BeanCRVMetaPool.vy": {
+      "lastModificationDate": 1661947668442,
+      "contentHash": "877341ca294b044ee411631baa60bcf4",
+      "sourceName": "contracts/pool/BeanCRVMetaPool.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "0.2.8",
+      "artifacts": [
+        "BeanCRVMetaPool"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/CRV3Pool.vy": {
+      "lastModificationDate": 1661947668442,
+      "contentHash": "19eff458068efe0815bab58ad9d21318",
+      "sourceName": "contracts/pool/CRV3Pool.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "CRV3Pool"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/CURVE_ZAP.vy": {
+      "lastModificationDate": 1661947668443,
+      "contentHash": "2a9a57fe811998d123564df52133c675",
+      "sourceName": "contracts/pool/CURVE_ZAP.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "CURVE_ZAP"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/TRI_CRYPTO.vy": {
+      "lastModificationDate": 1661947668443,
+      "contentHash": "0d5973b1085980710c0a4720750b3726",
+      "sourceName": "contracts/pool/TRI_CRYPTO.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "TRI_CRYPTO"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/TRI_CRYPTO_POOL.vy": {
+      "lastModificationDate": 1661951032092,
+      "contentHash": "3bc69bf53a248cad5a32cb7f9c6868b9",
+      "sourceName": "contracts/pool/TRI_CRYPTO_POOL.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "TRI_CRYPTO_POOL"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/UNRIPE_CURVE_BEAN_LUSD_POOL.vy": {
+      "lastModificationDate": 1661947668443,
+      "contentHash": "1880d135dd7358e29704a1a35a043162",
+      "sourceName": "contracts/pool/UNRIPE_CURVE_BEAN_LUSD_POOL.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "UNRIPE_CURVE_BEAN_LUSD_POOL"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/31Aug2022/StoicStalk/contracts/pool/UNRIPE_CURVE_BEAN_METAPOOL.vy": {
+      "lastModificationDate": 1661947668444,
+      "contentHash": "264fe6e2cd83e07cec93fe9e734fd723",
+      "sourceName": "contracts/pool/UNRIPE_CURVE_BEAN_METAPOOL.vy",
+      "vyperConfig": {
+        "version": "0.2.8"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "UNRIPE_CURVE_BEAN_METAPOOL"
+      ]
+    }
+  }
+}
